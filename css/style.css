@@ -33,7 +33,7 @@ a {
     text-decoration: none; /* Quitar subrayado de los enlaces */
 }
 img {
-    width: 100%;
+    max-width: 100%;
 }
 .contenedor {
     max-width: 120rem;
