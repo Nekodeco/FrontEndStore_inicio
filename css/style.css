@@ -99,7 +99,7 @@ h3 {
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
 }
-@media (min-width: 768px) {
+@media (min-width: 768px) {/* Mientras el ancho de la pantalla sea mayor a 768 px se aplicará este Media Query */
     .grid {
         grid-template-columns: repeat(3, 1fr);
     }
@@ -130,7 +130,7 @@ h3 {
 
 /* Gráficos */
 .grafico {
-    min-height: 30rem;
+    min-height: 30rem;/* Es necesario para que se muestren los bloques */
     background-repeat: no-repeat;
     background-size: cover;
     grid-column: 1 / 3; /* Esta línea de código se usa aquí para ahorrar las líneas de código de los modificadores "camisas" y "node" del bloque "grafico" */
@@ -145,13 +145,12 @@ h3 {
 /*     grid-column: 1 / 3; */
     grid-row: 8 / 9;
 }
-@media (min-width: 768px) {
+@media (min-width: 768px) {/* Mientras el ancho de la pantalla sea mayor a 768 px se aplicará este Media Query */
     .grafico--node {
         grid-row: 5 / 6;
         grid-column: 2 / 4;
     }
 }
-
 .nosotrostexto {
     min-height: 30rem;
     grid-row: 2 / 3;
@@ -163,7 +162,7 @@ h3 {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
 }
-@media (min-width: 768px) {
+@media (min-width: 768px) {/* Mientras el ancho de la pantalla sea mayor a 768 px se aplicará este Media Query */
     .nosotrosimagen {
         background-image: url(../img/nosotros.jpg);
         grid-column: 2 / 3;
